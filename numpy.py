@@ -85,3 +85,18 @@ arr = np.array([7, 8, 9, 10])
 filter = arr > 9
 new=arr[filter]
 print(new)
+#Universal Funtions arthimetic operations
+import numpy as np
+x = [2, 5, 5, 1]
+y = [1, 4, 3, 1]
+z = np.subtract(x, y)
+#Universal Funtions rounding decimals
+import numpy as np
+arr = np.trunc([5.998, 1.455])
+print(arr)
+import numpy as np
+arr = np.around(5.93)
+print(arr)
+import numpy as np
+arr = np.ceil([5.998, 1.455])
+print(arr)
