@@ -170,3 +170,13 @@ num1 = 4
 num2 = 6
 x = np.lcm(num1, num2)
 
+#Trionometric 
+np.pi / 180 * 50 --> convert 50 degrees into radians
+np.hypot() -->  finding the hypotenues
+
+#Hyperbolic
+np.sinh() -->  finding the hyperbolic sine value
+np.tanh() -->  finding the hyperbolic tan value
+np.cosh() -->  finding the hyperbolic cos value
+
+
