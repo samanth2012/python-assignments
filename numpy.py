@@ -125,3 +125,8 @@ newarr = arr.reshape(4, 3)
 arr = np.array([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12]])
 newarr = arr.reshape(-1)
 
+#ufunc logs
+log2()  --> #preform log at base 2
+log10() --> # perform log at base 10
+log()   --> #perform log at base e
+
