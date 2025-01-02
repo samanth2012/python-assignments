@@ -130,3 +130,43 @@ log2()  --> #preform log at base 2
 log10() --> # perform log at base 10
 log()   --> #perform log at base e
 
+#ufunc summations
+import numpy as np
+arr1 = np.array([5, 1, 2])
+arr2 = np.array([3, 2, 2])
+newarr = np.sum([arr1, arr2])
+import numpy as np
+arr1 = np.array([5, 1, 2])
+arr2 = np.array([3, 2, 2])
+newarr = np.sum([arr1, arr2], axis=1)
+import numpy as np
+arr1 = np.array([5, 1, 2])
+newarr = np.cumsum(arr1)
+#ufunc product
+import numpy as np
+arr1 = np.array([5, 2, 3])
+newarr = np.prod(arr1)
+import numpy as np
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 2, 1])
+newarr = np.prod([arr1, arr2], axis=1)
+newarr = np.sum([arr1, arr2], axis=1)
+import numpy as np
+arr = np.array([1, 2, 3])
+newarr = np.cumprod(arr)
+# ufunc differences
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+newarr = np.diff(arr)
+import numpy as np
+arr = np.array([5, 7, 3, 4])
+newarr = np.diff(arr)
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+newarr = np.diff(arr, n=2)
+# U func lcm
+import numpy as np
+num1 = 4
+num2 = 6
+x = np.lcm(num1, num2)
+
