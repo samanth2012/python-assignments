@@ -179,4 +179,6 @@ np.sinh() -->  finding the hyperbolic sine value
 np.tanh() -->  finding the hyperbolic tan value
 np.cosh() -->  finding the hyperbolic cos value
 
+# random distribution
+x = random.choice([3, 5, 7, 9], p=[0.1, 0.3, 0.6, 0.0], size=(3, 5)) --> 2d array
 
