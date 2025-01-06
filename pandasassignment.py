@@ -17,3 +17,5 @@ print(df)
 print(df.dropna) #returns new datafarame by removing empty cells
 df.fillna(130) # replacing empty cells with the value "130"
 dropna(inplace=True) #removes empty cells returns original DataFrame instead of returning a new one.
+#cleaning wrong format
+to_datetime() #method for converting a column into date formats?
