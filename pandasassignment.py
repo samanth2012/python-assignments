@@ -21,4 +21,5 @@ dropna(inplace=True) #removes empty cells returns original DataFrame instead of 
 to_datetime() #method for converting a column into date formats?
 #cleaning duplicates
 df.drop_duplicates() --> removes duplicates
-
+#correlation
+df.corr()-->prints correlation matrix
